@@ -1,0 +1,35 @@
+{"id": "001", "name": "LOGO PACK GREEN SHIRT", "type": "Áo", "material": "Cotton 2 chiều 100%", "price": 420000}
+{"id": "002", "name": "HADES VINTAGE SNAKE WASH TEE", "type": "Áo", "material": "Cotton 2 chiều 100%", "price": 420000}
+{"id": "003", "name": "NEW BALANCE LONGSLEEVE", "type": "Áo", "material": "Cotton 2 chiều 100%", "price": 460000}
+{"id": "004", "name": "ESSENTIAL LONGSLEEVE", "type": "Áo", "material": "Cotton 2 chiều 100%", "price": 460000}
+{"id": "005", "name": "GANGSTA TEE", "type": "Áo", "material": "Cotton 2 chiều 100%, in lụa", "price": 380000}
+{"id": "006", "name": "WOLF GANG TEE", "type": "Áo", "material": "Cotton 2 chiều 100%, in lụa", "price": 380000}
+{"id": "007", "name": "FOOTBALL FANATIC T-SHIRT", "type": "Áo", "material": "Poly silk", "price": 420000}
+{"id": "008", "name": "EMOJI LONG SLEEVE", "type": "Áo", "material": "Cotton 2 chiều 100%", "price": 490000}
+{"id": "009", "name": "BLACKCORDUROY TEE", "type": "Áo", "material": "Nhung tăm", "price": 380000}
+{"id": "010", "name": "FLAME GRADIENT TEE", "type": "Áo", "material": "Cotton 2 chiều 100%, in lụa", "price": 380000}
+{"id": "011", "name": "HANOI SPIRIT WASH TEE", "type": "Áo", "material": "Cotton 2 chiều 100%, in lụa", "price": 420000}
+{"id": "012", "name": "GRAFFITI FLANNEL", "type": "Áo", "material": "Cotton caro, in lụa", "price": 620000}
+{"id": "013", "name": "WAFFLE FLANNEL", "type": "Áo", "material": "Cotton caro, in lụa", "price": 620000}
+{"id": "014", "name": "EMOJI TEE", "type": "Áo", "material": "Cotton 2 chiều 100%, in lụa", "price": 420000}
+{"id": "015", "name": "FAITH TEE", "type": "Áo", "material": "Cotton 2 chiều 100%, in lụa", "price": 380000}
+{"id": "016", "name": "HADES BASIC WASHED TEE", "type": "Áo", "material": "Cotton 2 chiều 100%", "price": 420000}
+{"id": "017", "name": "HADES BASIC WHITE TEE", "type": "Áo", "material": "Cotton 2 chiều 100%", "price": 380000}
+{"id": "018", "name": "CLAIRVOYANCE MEDICINE HOODIE", "type": "Áo", "material": "Nỉ, in lụa", "price": 550000}
+{"id": "019", "name": "CERBERRUS TEE", "type": "Áo", "material": "Cotton 2 chiều 100%, in lụa", "price": 380000}
+{"id": "020", "name": "HELL'S KING TEE", "type": "Áo", "material": "Cotton 2 chiều 100%, in lụa", "price": 380000}
+{"id": "021", "name": "TEMPTATION HOODIE", "type": "Áo", "material": "100% Mohair, in lụa", "price": 550000}
+{"id": "022", "name": "ALPHABETIC SHIRT", "type": "Áo", "material": "Silk", "price": 420000}
+{"id": "023", "name": "NOWHERE LAND TEE", "type": "Áo", "material": "Cotton 2 chiều 100%", "price": 290000}
+{"id": "024", "name": "SPRAY TEE", "type": "Áo", "material": "Cotton 2 chiều 100%", "price": 290000}
+{"id": "025", "name": "GO WILD N FUN TEE", "type": "Áo", "material": "Cotton 2 chiều 100%, in lụa", "price": 250000}
+{"id": "026", "name": "BASIC SHORTS", "type": "Quần", "material": "Nỉ da cá 100%", "price": 380000}
+{"id": "027", "name": "CARGO SHORTS", "type": "Quần", "material": "Cotton 2 chiều 100%", "price": 380000}
+{"id": "028", "name": "NEW BALANCE TROUSER PANTS", "type": "Quần", "material": "Cotton 2 chiều 100%", "price": 450000}
+{"id": "029", "name": "RACE TRACK PANTS", "type": "Quần", "material": "Thêu nổi kết hợp vải nhung", "price": 490000}
+{"id": "030", "name": "ESSENTIAL TROUSER PANTS", "type": "Quần", "material": "Nỉ", "price": 450000}
+{"id": "031", "name": "HADES BLACK CORDUROY PANTS", "type": "Quần", "material": "Nhung tăm", "price": 490000}
+{"id": "032", "name": "H BLACK TROUSER PANTS", "type": "Quần", "material": "Nhung tăm", "price": 490000}
+{"id": "033", "name": "ALPHABETIC SHORTS", "type": "Quần", "material": "Nhung tăm", "price": 490000}
+{"id": "034", "name": "RAZOR PANTS", "type": "Quần", "material": "Nỉ, in lụa", "price": 360000}
+{"id": "035", "name": "SKELETON SHORTS", "type": "Quần", "material": "Dù, in lụa", "price": 250000}
