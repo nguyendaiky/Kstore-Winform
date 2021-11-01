@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/wnwthxfHl38fKcPPWdqKhK5/cKRCvfWFuSMDSOcGbCCxBSpCqveZvm/P+YSnO20muNoBl5t/P9aoUxYRnJOuA==",
+  "dgSpecHash": "Lhp2RIfROHshh8mc49++sS4KaXvqcRnVVK2I63fGUXhaVM0v9PyULF+vaeqb2xBxH6yn2NRASKsZl9emjH3c5Q==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\Learn-New-Language\\C#\\Kstore\\Kstore.csproj",
+  "projectFilePath": "D:\\Workspace\\Kstore-Winform\\Kstore\\Kstore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ndk14\\.nuget\\packages\\fontawesome.sharp\\5.15.3\\fontawesome.sharp.5.15.3.nupkg.sha512",
     "C:\\Users\\ndk14\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"

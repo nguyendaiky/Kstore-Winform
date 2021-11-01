@@ -105,8 +105,13 @@ namespace Kstore.childForm
             "Nhung",
             "Dù",
             "Silk",
+            "Poly silk",
             "Mohair",
-            "Poly silk"});
+            "Len",
+            "Họa tiết thêu",
+            "Vải da cá",
+            "Corduroy",
+            "Silimi"});
             this.cb_ChatLieu.Location = new System.Drawing.Point(72, 33);
             this.cb_ChatLieu.Name = "cb_ChatLieu";
             this.cb_ChatLieu.Size = new System.Drawing.Size(140, 23);

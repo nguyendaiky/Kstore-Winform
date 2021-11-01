@@ -58,11 +58,11 @@ namespace Kstore
         {
             get
             {
-                return lb_CartItemSize.Text;
+                return cb_CartItemSize.Text;
             }
             set
             {
-                lb_CartItemSize.Text = value;
+                cb_CartItemSize.Text = value;
             }
         }
 
@@ -88,6 +88,48 @@ namespace Kstore
             {
                 lb_CartItemMoney.Text = value;
             }
+        }
+
+        private void cb_CartItemSize_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ComboBox cb = (ComboBox)sender;
+            this.CartItemSize = cb.Text;
+            foreach (DataRow dr in Form1.cartItemsData.Rows)
+            {
+                if (dr["id"].ToString() == this.CartItemId)
+                {
+                    dr["size"] = this.CartItemSize;
+                }
+            }
+        }
+
+        private void num_CartItemNumber_ValueChanged(object sender, EventArgs e)
+        {
+            NumericUpDown num = (NumericUpDown)sender;
+            this.CartItemNumber = num.Value;
+            foreach (DataRow dr in Form1.cartItemsData.Rows)
+            {
+                if (dr["id"].ToString() == this.CartItemId)
+                {
+                    dr["number"] = this.CartItemNumber;
+                    this.CartItemMoney = (num.Value * Convert.ToInt32(dr["price"])).ToString("#,##0") + "đ";
+                }
+            }
+            this.Parent.Click += Parent_Click;
+        }
+
+        private void Parent_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void pic_CartItemDelete_Click(object sender, EventArgs e)
+        {
+            DataRow[] drr = Form1.cartItemsData.Select("id='" + this.CartItemId + "'");
+            for (int i = 0; i < drr.Length; i++)
+                drr[i].Delete();
+            Form1.cartItemsData.AcceptChanges();
+            this.Parent.Controls.Remove(this);
         }
     }
 }

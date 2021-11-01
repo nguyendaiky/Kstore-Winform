@@ -39,6 +39,7 @@ namespace Kstore
             this.lb_CartItemMoney = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pic_CartItemDelete = new FontAwesome.Sharp.IconPictureBox();
+            this.cb_CartItemSize = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_CartItemImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_CartItemNumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_CartItemDelete)).BeginInit();
@@ -68,9 +69,9 @@ namespace Kstore
             this.lb_CartItemSize.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lb_CartItemSize.Location = new System.Drawing.Point(135, 61);
             this.lb_CartItemSize.Name = "lb_CartItemSize";
-            this.lb_CartItemSize.Size = new System.Drawing.Size(38, 21);
+            this.lb_CartItemSize.Size = new System.Drawing.Size(41, 21);
             this.lb_CartItemSize.TabIndex = 2;
-            this.lb_CartItemSize.Text = "Size";
+            this.lb_CartItemSize.Text = "Size:";
             // 
             // label1
             // 
@@ -99,6 +100,7 @@ namespace Kstore
             0,
             0,
             0});
+            this.num_CartItemNumber.ValueChanged += new System.EventHandler(this.num_CartItemNumber_ValueChanged);
             // 
             // label2
             // 
@@ -155,12 +157,31 @@ namespace Kstore
             this.pic_CartItemDelete.Size = new System.Drawing.Size(52, 57);
             this.pic_CartItemDelete.TabIndex = 9;
             this.pic_CartItemDelete.TabStop = false;
+            this.pic_CartItemDelete.Click += new System.EventHandler(this.pic_CartItemDelete_Click);
+            // 
+            // cb_CartItemSize
+            // 
+            this.cb_CartItemSize.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cb_CartItemSize.FormattingEnabled = true;
+            this.cb_CartItemSize.Items.AddRange(new object[] {
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"});
+            this.cb_CartItemSize.Location = new System.Drawing.Point(182, 58);
+            this.cb_CartItemSize.Name = "cb_CartItemSize";
+            this.cb_CartItemSize.Size = new System.Drawing.Size(47, 29);
+            this.cb_CartItemSize.TabIndex = 10;
+            this.cb_CartItemSize.Text = "L";
+            this.cb_CartItemSize.SelectedIndexChanged += new System.EventHandler(this.cb_CartItemSize_SelectedIndexChanged);
             // 
             // CartItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Controls.Add(this.cb_CartItemSize);
             this.Controls.Add(this.pic_CartItemDelete);
             this.Controls.Add(this.lb_CartItemMoney);
             this.Controls.Add(this.label5);
@@ -171,9 +192,9 @@ namespace Kstore
             this.Controls.Add(this.lb_CartItemSize);
             this.Controls.Add(this.lb_CartItemName);
             this.Controls.Add(this.pic_CartItemImage);
-            this.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Name = "CartItem";
-            this.Size = new System.Drawing.Size(1115, 121);
+            this.Size = new System.Drawing.Size(1120, 121);
             ((System.ComponentModel.ISupportInitialize)(this.pic_CartItemImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_CartItemNumber)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_CartItemDelete)).EndInit();
@@ -194,5 +215,6 @@ namespace Kstore
         private System.Windows.Forms.Label lb_CartItemMoney;
         private System.Windows.Forms.Label label5;
         private FontAwesome.Sharp.IconPictureBox pic_CartItemDelete;
+        private System.Windows.Forms.ComboBox cb_CartItemSize;
     }
 }

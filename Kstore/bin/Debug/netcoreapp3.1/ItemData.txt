@@ -33,3 +33,39 @@
 {"id": "033", "name": "ALPHABETIC SHORTS", "type": "Quần", "material": "Nhung tăm", "price": 490000}
 {"id": "034", "name": "RAZOR PANTS", "type": "Quần", "material": "Nỉ, in lụa", "price": 360000}
 {"id": "035", "name": "SKELETON SHORTS", "type": "Quần", "material": "Dù, in lụa", "price": 250000}
+{"id": "036", "name": "VIETNAM DRIFT GANG JACKET", "type": "Áo khoác", "material": "Họa tiết thêu nổi 100% kết hợp vải nhung", "price": 680000}
+{"id": "037", "name": "REFLECTION JACKET", "type": "Áo khoác", "material": "Dù, in phản quang", "price": 620000}
+{"id": "038", "name": "ALPHABETIC CARDIGAN", "type": "Áo khoác", "material": "Len", "price": 780000}
+{"id": "039", "name": "GLORY ROAD BROWN VARSITY JACKET", "type": "Áo khoác", "material": "Nỉ", "price": 1300000}
+{"id": "040", "name": "RANDOM LETTER HOODIE", "type": "Áo khoác", "material": "100% Mohair, in lụa", "price": 600000}
+{"id": "041", "name": "MYSTIQUE EYE HOODlE", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 550000}
+{"id": "042", "name": "BANDANA HOODIE", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 600000}
+{"id": "043", "name": "HADES BASIC JACKET", "type": "Áo khoác", "material": "Dù, in lụa", "price": 580000}
+{"id": "044", "name": "SPRAY SWEATER", "type": "Áo khoác", "material": "Vải da cá, in lụa", "price": 340000}
+{"id": "045", "name": "SLENDERMAN JACKET", "type": "Áo khoác", "material": "Cotton 2 chiều 100%, in lụa", "price": 450000}
+{"id": "046", "name": "RAZOR HOODIE", "type": "Áo khoác", "material": "Nỉ", "price": 400000}
+{"id": "047", "name": "HATRED WASH HOODIE", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 420000}
+{"id": "048", "name": "THUNDER STORM SWEATER", "type": "Áo khoác", "material": "Vải da cá, in lụa", "price": 290000}
+{"id": "049", "name": "TWO FACES SWEATER", "type": "Áo khoác", "material": "Vải ca dá, in lụa", "price": 290000}
+{"id": "050", "name": "CHAIN SHIRT", "type": "Áo khoác", "material": "Silk", "price": 290000}
+{"id": "051", "name": "BURN HOODIE", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 290000}
+{"id": "052", "name": "INVASION HOODIE ZIP", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 390000}
+{"id": "053", "name": "GO WILD N FUN HOODIE", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 400000}
+{"id": "054", "name": "PINK SPOT TIEDYE HOODIE", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 350000}
+{"id": "055", "name": "SKELETON HOODIE", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 480000}
+{"id": "056", "name": "LANDSCAPE HOODIE", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 310000}
+{"id": "057", "name": "CYAN PINK TIEDYE HOODIE", "type": "Áo khoác", "material": "Nỉ, in lụa", "price": 390000}
+{"id": "058", "name": "LIGHTNING STRIKE JACKET", "type": "Áo khoác", "material": "Dù", "price": 440000}
+{"id": "059", "name": "PINK CAMO HOODIE", "type": "Áo khoác", "material": "Nỉ", "price": 420000}
+{"id": "060", "name": "MARS JACKET", "type": "Áo khoác", "material": "Dù", "price": 250000}
+{"id": "061", "name": "HADES PATTERN BASEBALL CAP", "type": "Nón", "material": "Cotton", "price": 280000}
+{"id": "062", "name": "EMOJI CAP", "type": "Nón", "material": "Cotton", "price": 280000}
+{"id": "063", "name": "DOCKER WASH HAT", "type": "Nón", "material": "Nhung tăm", "price": 320000}
+{"id": "064", "name": "BLACK CORDUROY DOCKER HAT", "type": "Nón", "material": "100% Corduroy", "price": 290000}
+{"id": "065", "name": "LOGO CAP", "type": "Nón", "material": "Cotton", "price": 200000}
+{"id": "066", "name": "SS3 BACKPACK", "type": "Túi", "material": "Silimi", "price": 600000}
+{"id": "067", "name": "LUCKY SHOULDER BAG", "type": "Túi", "material": "Dù", "price": 270000}
+{"id": "068", "name": "WOLF SYMBOL BACKPACK", "type": "Túi", "material": "Dù", "price": 390000}
+{"id": "069", "name": "SOUL TOTE", "type": "Túi", "material": "Vải da cá", "price": 190000}
+{"id": "070", "name": "CAMO BACKPACK", "type": "Túi", "material": "Silimi", "price": 480000}
+{"id": "071", "name": "SS2 BACKPACK", "type": "Túi", "material": "Silimi", "price": 420000}

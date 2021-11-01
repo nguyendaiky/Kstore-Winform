@@ -83,11 +83,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\Learn-New-Language\\C#\\Kstore\\Kstore.csproj",
+      "projectUniqueName": "D:\\Workspace\\Kstore-Winform\\Kstore\\Kstore.csproj",
       "projectName": "Kstore",
-      "projectPath": "D:\\Workspace\\Learn-New-Language\\C#\\Kstore\\Kstore.csproj",
+      "projectPath": "D:\\Workspace\\Kstore-Winform\\Kstore\\Kstore.csproj",
       "packagesPath": "C:\\Users\\ndk14\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\Learn-New-Language\\C#\\Kstore\\obj\\",
+      "outputPath": "D:\\Workspace\\Kstore-Winform\\Kstore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
