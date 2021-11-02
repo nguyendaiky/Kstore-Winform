@@ -156,6 +156,7 @@ namespace Kstore.childForm
             this.btn_DatHang.TabIndex = 10;
             this.btn_DatHang.Text = "ĐẶT HÀNG";
             this.btn_DatHang.UseVisualStyleBackColor = false;
+            this.btn_DatHang.Click += new System.EventHandler(this.btn_DatHang_Click);
             // 
             // lb_TongTien
             // 

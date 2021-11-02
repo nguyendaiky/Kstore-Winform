@@ -48,3 +48,5 @@ D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.csproj.CoreCom
 D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.dll
 D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.pdb
 D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.genruntimeconfig.cache
+D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.OrderItem.resources
+D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.Prompt.resources

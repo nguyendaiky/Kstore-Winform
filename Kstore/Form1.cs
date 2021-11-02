@@ -23,6 +23,8 @@ namespace Kstore
         public Color myWhite = Color.FromArgb(227, 227, 227);
 
         public static DataTable cartItemsData = new DataTable();
+        public static DataTable ordersData = new DataTable();
+        public static int orderId = 1;
 
         public Form1()
         {
@@ -33,11 +35,23 @@ namespace Kstore
             currentBtn = btn_DanhMuc;
             ActivateButton(currentBtn);
             OpenChildForm(new childForm.DanhMuc());
+
             cartItemsData.Columns.Add("id", typeof(string));
             cartItemsData.Columns.Add("name", typeof(string));
             cartItemsData.Columns.Add("size", typeof(string));
             cartItemsData.Columns.Add("price", typeof(int));
             cartItemsData.Columns.Add("number", typeof(int));
+
+            ordersData.Columns.Add("id", typeof(string));
+            ordersData.Columns.Add("status", typeof(string));
+            ordersData.Columns.Add("timeOrder", typeof(string));
+            ordersData.Columns.Add("note", typeof(string));
+            ordersData.Columns.Add("name", typeof(string));
+            ordersData.Columns.Add("phone", typeof(string));
+            ordersData.Columns.Add("address", typeof(string));
+            ordersData.Columns.Add("timeShip", typeof(string));
+            ordersData.Columns.Add("products", typeof(string));
+            ordersData.Columns.Add("money", typeof(double));
         }
 
         private void ActivateButton(object senderBtn)

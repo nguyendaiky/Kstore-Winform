@@ -29,33 +29,54 @@ namespace Kstore.childForm
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.pnl_OrderContainer = new System.Windows.Forms.FlowLayoutPanel();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // label1
+            // pnl_OrderContainer
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(415, 186);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Quan Ly";
+            this.pnl_OrderContainer.AutoScroll = true;
+            this.pnl_OrderContainer.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pnl_OrderContainer.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnl_OrderContainer.Location = new System.Drawing.Point(0, 0);
+            this.pnl_OrderContainer.Name = "pnl_OrderContainer";
+            this.pnl_OrderContainer.Size = new System.Drawing.Size(832, 467);
+            this.pnl_OrderContainer.TabIndex = 1;
+            // 
+            // splitter1
+            // 
+            this.splitter1.Location = new System.Drawing.Point(832, 0);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(3, 467);
+            this.splitter1.TabIndex = 2;
+            this.splitter1.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.Location = new System.Drawing.Point(832, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(241, 467);
+            this.panel1.TabIndex = 3;
             // 
             // QuanLy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1073, 467);
+            this.Controls.Add(this.splitter1);
+            this.Controls.Add(this.pnl_OrderContainer);
+            this.Controls.Add(this.panel1);
             this.Name = "QuanLy";
             this.Text = "QuanLy";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.FlowLayoutPanel pnl_OrderContainer;
+        private System.Windows.Forms.Splitter splitter1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

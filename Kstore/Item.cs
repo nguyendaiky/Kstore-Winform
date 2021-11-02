@@ -83,7 +83,12 @@ namespace Kstore
                 string strPrice = lb_ItemPrice.Text.Replace(",", "");
                 strPrice = strPrice.Replace("đ", "");
                 int intPrice = Convert.ToInt32(strPrice);
-                Form1.cartItemsData.Rows.Add(ItemId,lb_ItemName.Text,"L",intPrice,1);
+                string size = "L";
+                if (this.ItemType == "Nón" || this.ItemType == "Túi")
+                {
+                    size = "None";
+                }
+                Form1.cartItemsData.Rows.Add(ItemId, lb_ItemName.Text, size, intPrice, 1);
             }
             MessageBox.Show("Đã thêm sản phẩm " + lb_ItemName.Text + " vào giỏ!");
         }

@@ -22,5 +22,11 @@
     <Compile Update="Item.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="OrderItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Prompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -10,6 +10,8 @@ namespace Kstore
 {
     public partial class CartItem : UserControl
     {
+        public Kstore.childForm.GioHang parentForm { get; set; }
+
         public CartItem()
         {
             InitializeComponent();
@@ -66,6 +68,12 @@ namespace Kstore
             }
         }
 
+        public void CartItemSizeInvisible()
+        {
+            this.lb_CartItemSize.Visible = false;
+            this.cb_CartItemSize.Visible = false;
+        }
+
         public decimal CartItemNumber
         {
             get
@@ -115,12 +123,10 @@ namespace Kstore
                     this.CartItemMoney = (num.Value * Convert.ToInt32(dr["price"])).ToString("#,##0") + "đ";
                 }
             }
-            this.Parent.Click += Parent_Click;
-        }
-
-        private void Parent_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
+            if (parentForm != null)
+            {
+                parentForm.CalTotalCharge();
+            }
         }
 
         private void pic_CartItemDelete_Click(object sender, EventArgs e)
