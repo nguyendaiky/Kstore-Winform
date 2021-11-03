@@ -46,7 +46,8 @@ namespace Kstore.childForm
             this.label9 = new System.Windows.Forms.Label();
             this.txt_ThoiGian = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.lb_PhiShip = new System.Windows.Forms.Label();
+            this.rd_ShipThuong = new System.Windows.Forms.RadioButton();
+            this.rd_ShipNhanh = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // pnl_CartContainer
@@ -65,6 +66,7 @@ namespace Kstore.childForm
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(25, 460);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 21);
@@ -75,6 +77,7 @@ namespace Kstore.childForm
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Location = new System.Drawing.Point(25, 496);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 21);
@@ -85,6 +88,7 @@ namespace Kstore.childForm
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Location = new System.Drawing.Point(25, 530);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(133, 21);
@@ -119,6 +123,7 @@ namespace Kstore.childForm
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Location = new System.Drawing.Point(605, 565);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(119, 21);
@@ -129,7 +134,8 @@ namespace Kstore.childForm
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(605, 496);
+            this.label5.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label5.Location = new System.Drawing.Point(605, 485);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(99, 21);
             this.label5.TabIndex = 8;
@@ -139,6 +145,7 @@ namespace Kstore.childForm
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Location = new System.Drawing.Point(605, 460);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 21);
@@ -162,7 +169,7 @@ namespace Kstore.childForm
             // 
             this.lb_TongTien.AutoSize = true;
             this.lb_TongTien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lb_TongTien.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lb_TongTien.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lb_TongTien.Location = new System.Drawing.Point(730, 460);
             this.lb_TongTien.Name = "lb_TongTien";
             this.lb_TongTien.Size = new System.Drawing.Size(76, 21);
@@ -172,7 +179,7 @@ namespace Kstore.childForm
             // txt_MaGiamGia
             // 
             this.txt_MaGiamGia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_MaGiamGia.Location = new System.Drawing.Point(729, 493);
+            this.txt_MaGiamGia.Location = new System.Drawing.Point(730, 482);
             this.txt_MaGiamGia.Name = "txt_MaGiamGia";
             this.txt_MaGiamGia.Size = new System.Drawing.Size(160, 29);
             this.txt_MaGiamGia.TabIndex = 12;
@@ -193,6 +200,7 @@ namespace Kstore.childForm
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label9.Location = new System.Drawing.Point(25, 565);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(151, 21);
@@ -212,29 +220,48 @@ namespace Kstore.childForm
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(605, 530);
+            this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label10.Location = new System.Drawing.Point(605, 516);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(107, 21);
             this.label10.TabIndex = 16;
             this.label10.Text = "Phí ship hàng:";
             // 
-            // lb_PhiShip
+            // rd_ShipThuong
             // 
-            this.lb_PhiShip.AutoSize = true;
-            this.lb_PhiShip.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lb_PhiShip.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lb_PhiShip.Location = new System.Drawing.Point(730, 530);
-            this.lb_PhiShip.Name = "lb_PhiShip";
-            this.lb_PhiShip.Size = new System.Drawing.Size(67, 21);
-            this.lb_PhiShip.TabIndex = 17;
-            this.lb_PhiShip.Text = "20,000đ";
+            this.rd_ShipThuong.AutoSize = true;
+            this.rd_ShipThuong.Checked = true;
+            this.rd_ShipThuong.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rd_ShipThuong.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.rd_ShipThuong.Location = new System.Drawing.Point(730, 514);
+            this.rd_ShipThuong.Name = "rd_ShipThuong";
+            this.rd_ShipThuong.Size = new System.Drawing.Size(185, 25);
+            this.rd_ShipThuong.TabIndex = 17;
+            this.rd_ShipThuong.TabStop = true;
+            this.rd_ShipThuong.Text = "20,000đ (Ship thường)";
+            this.rd_ShipThuong.UseVisualStyleBackColor = true;
+            this.rd_ShipThuong.CheckedChanged += new System.EventHandler(this.rd_ShipThuong_CheckedChanged);
+            // 
+            // rd_ShipNhanh
+            // 
+            this.rd_ShipNhanh.AutoSize = true;
+            this.rd_ShipNhanh.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rd_ShipNhanh.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.rd_ShipNhanh.Location = new System.Drawing.Point(730, 538);
+            this.rd_ShipNhanh.Name = "rd_ShipNhanh";
+            this.rd_ShipNhanh.Size = new System.Drawing.Size(178, 25);
+            this.rd_ShipNhanh.TabIndex = 18;
+            this.rd_ShipNhanh.Text = "35,000đ (Ship nhanh)";
+            this.rd_ShipNhanh.UseVisualStyleBackColor = true;
             // 
             // GioHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(800, 643);
-            this.Controls.Add(this.lb_PhiShip);
+            this.Controls.Add(this.rd_ShipNhanh);
+            this.Controls.Add(this.rd_ShipThuong);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txt_ThoiGian);
             this.Controls.Add(this.label9);
@@ -278,6 +305,7 @@ namespace Kstore.childForm
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txt_ThoiGian;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label lb_PhiShip;
+        private System.Windows.Forms.RadioButton rd_ShipThuong;
+        private System.Windows.Forms.RadioButton rd_ShipNhanh;
     }
 }

@@ -69,7 +69,7 @@ namespace Kstore.childForm
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.pic_Cap);
             this.panel1.Controls.Add(this.pic_Non);
@@ -147,6 +147,7 @@ namespace Kstore.childForm
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Location = new System.Drawing.Point(13, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 15);
@@ -157,6 +158,7 @@ namespace Kstore.childForm
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(10, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 15);

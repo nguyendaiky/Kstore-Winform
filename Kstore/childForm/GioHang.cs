@@ -19,6 +19,7 @@ namespace Kstore.childForm
         public void ShowCart()
         {
             pnl_CartContainer.Controls.Clear();
+            int count = 0;
             foreach (DataRow dr in Form1.cartItemsData.Rows)
             {
                 CartItem cartItem = new CartItem();
@@ -39,8 +40,17 @@ namespace Kstore.childForm
                 cartItem.CartItemMoney = money.ToString("#,##0") + "đ";
                 cartItem.parentForm = this;
                 pnl_CartContainer.Controls.Add(cartItem);
+                count++;
             }
             CalTotalCharge();
+            //if (count == 0)
+            //{
+            //    Label lb_NoItem = new Label();
+            //    lb_NoItem.Text = "Chưa có sản phẩm nào trong giỏ hàng!";
+            //    lb_NoItem.Font = new Font("Segoe UI", 12);
+            //    pnl_CartContainer.Controls.Add(lb_NoItem);
+            //    //lb_NoItem.Location = new Point(Convert.ToInt32(this.Width / 2), Convert.ToInt32(this.Height / 2));
+            //}
         }
 
         public void ChangeTotalMoney(double value)
@@ -62,11 +72,17 @@ namespace Kstore.childForm
         public double CalTotalCharge()
         {
             double tienThanhToan = CalTotalMoney();
-            double tienShip = 20000;
-            if (tienThanhToan == 0)
+            double tienShip = 0;
+            if (tienThanhToan != 0)
             {
-                tienShip = 0;
-                lb_PhiShip.Text = "0đ";
+                if (rd_ShipThuong.Checked == true)
+                {
+                    tienShip = 20000;
+                }
+                else if (rd_ShipNhanh.Checked == true)
+                {
+                    tienShip = 35000;
+                }
             }
             if (txt_MaGiamGia.Text == "KHUYENMAI05")
             {
@@ -143,18 +159,32 @@ namespace Kstore.childForm
                 strThanhToan = strThanhToan.Replace("đ", "");
                 strThanhToan = strThanhToan.Replace(",", "");
                 double douThanhToan = Convert.ToDouble(strThanhToan);
+                double shipFee = 0;
+                if (rd_ShipThuong.Checked)
+                {
+                    shipFee = 20000;
+                }
+                else
+                {
+                    shipFee = 35000;
+                }
 
                 Form1.ordersData.Rows.Add("order" + Form1.orderId.ToString(), "Đã đặt hàng", 
-                    DateTime.Now.ToString("dd-MM-yyyy hh:mm:ss"), "", txt_HoVaTen.Text, txt_SoDienThoai.Text,
-                    txt_DiaChi.Text, txt_ThoiGian.Text, products, douThanhToan);
+                    DateTime.Now.ToString("dd"), DateTime.Now.ToString("MM"), DateTime.Now.ToString("yyyy"), 
+                    "", txt_HoVaTen.Text, txt_SoDienThoai.Text,
+                    txt_DiaChi.Text, txt_ThoiGian.Text, products, douThanhToan, shipFee);
                 Form1.orderId += 1;
 
                 pnl_CartContainer.Controls.Clear();
                 Form1.cartItemsData.Rows.Clear();
                 lb_TongTien.Text = "0đ";
-                lb_PhiShip.Text = "0đ";
                 lb_ThanhToan.Text = "0đ";
             }
+        }
+
+        private void rd_ShipThuong_CheckedChanged(object sender, EventArgs e)
+        {
+            CalTotalCharge();
         }
     }
 }

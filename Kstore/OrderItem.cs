@@ -13,6 +13,7 @@ namespace Kstore
         public OrderItem()
         {
             InitializeComponent();
+            lb_LyDo.Visible = false;
             DangGiaoHang(10);
         }
 
@@ -46,7 +47,7 @@ namespace Kstore
             DaGiaoHang(7);
         }
 
-        public Kstore.childForm.GioHang ParentForm { get; set; }
+        public Kstore.childForm.QuanLy ParentForm { get; set; }
 
         public void ChangeStatus()
         {
@@ -61,6 +62,7 @@ namespace Kstore
                 {
                     this.OrderItemStatus = "Đã giao hàng thành công";
                     dr["status"] = "Đã giao hàng thành công";
+                    this.ParentForm.LoadOrder();
                 }
             }
         }
@@ -96,7 +98,7 @@ namespace Kstore
                 }
                 else if (value == "Đã giao hàng thành công")
                 {
-                    this.lb_TinhTrang.ForeColor = Color.Gold;
+                    this.lb_TinhTrang.ForeColor = Color.SpringGreen;
                 }
                 else
                 {
@@ -214,12 +216,14 @@ namespace Kstore
             if(reason != "BUTTON CANCEL")
             {
                 this.OrderItemStatus = "Đã hủy đơn hàng";
+                this.lb_LyDo.Visible = true;
                 this.lb_GhiChu.Text = reason;
                 foreach (DataRow dr in Form1.ordersData.Rows)
                 {
                     if (dr["id"].ToString() == this.OrderItemId)
                     {
                         dr["status"] = "Đã hủy đơn hàng";
+                        this.ParentForm.LoadOrder();
                     }
                 }
             }

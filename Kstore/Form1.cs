@@ -18,7 +18,7 @@ namespace Kstore
         private Form currentChildForm;
 
         public Color myBlue = Color.FromArgb(31, 30, 68);
-        public Color myYellow = Color.FromArgb(242, 177, 56);
+        public Color myYellow = Color.DarkOrange;
         public Color mySilver = Color.FromArgb(211, 211, 211);
         public Color myWhite = Color.FromArgb(227, 227, 227);
 
@@ -44,7 +44,9 @@ namespace Kstore
 
             ordersData.Columns.Add("id", typeof(string));
             ordersData.Columns.Add("status", typeof(string));
-            ordersData.Columns.Add("timeOrder", typeof(string));
+            ordersData.Columns.Add("orderDate", typeof(string));
+            ordersData.Columns.Add("orderMonth", typeof(string));
+            ordersData.Columns.Add("orderYear", typeof(string));
             ordersData.Columns.Add("note", typeof(string));
             ordersData.Columns.Add("name", typeof(string));
             ordersData.Columns.Add("phone", typeof(string));
@@ -52,6 +54,7 @@ namespace Kstore
             ordersData.Columns.Add("timeShip", typeof(string));
             ordersData.Columns.Add("products", typeof(string));
             ordersData.Columns.Add("money", typeof(double));
+            ordersData.Columns.Add("shipFee", typeof(double));
         }
 
         private void ActivateButton(object senderBtn)

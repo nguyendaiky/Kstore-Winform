@@ -37,7 +37,7 @@ namespace Kstore
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lb_LyDo = new System.Windows.Forms.Label();
             this.rtb_SanPham = new System.Windows.Forms.RichTextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.btn_HuyDonHang = new System.Windows.Forms.Button();
@@ -132,15 +132,15 @@ namespace Kstore
             this.label8.TabIndex = 7;
             this.label8.Text = "Thời gian đặt hàng:";
             // 
-            // label9
+            // lb_LyDo
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(429, 45);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(66, 21);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Ghi chú:";
+            this.lb_LyDo.AutoSize = true;
+            this.lb_LyDo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lb_LyDo.Location = new System.Drawing.Point(429, 45);
+            this.lb_LyDo.Name = "lb_LyDo";
+            this.lb_LyDo.Size = new System.Drawing.Size(112, 21);
+            this.lb_LyDo.TabIndex = 8;
+            this.lb_LyDo.Text = "Lý do hủy đơn:";
             // 
             // rtb_SanPham
             // 
@@ -180,11 +180,12 @@ namespace Kstore
             this.lb_TienThanhToan.AutoSize = true;
             this.lb_TienThanhToan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lb_TienThanhToan.ForeColor = System.Drawing.Color.DarkOrange;
-            this.lb_TienThanhToan.Location = new System.Drawing.Point(586, 217);
+            this.lb_TienThanhToan.Location = new System.Drawing.Point(563, 217);
+            this.lb_TienThanhToan.MaximumSize = new System.Drawing.Size(260, 0);
             this.lb_TienThanhToan.Name = "lb_TienThanhToan";
-            this.lb_TienThanhToan.Size = new System.Drawing.Size(76, 21);
+            this.lb_TienThanhToan.Size = new System.Drawing.Size(254, 21);
             this.lb_TienThanhToan.TabIndex = 12;
-            this.lb_TienThanhToan.Text = "200,000đ";
+            this.lb_TienThanhToan.Text = "1,200,000đ (gồm 35,000đ phí ship)";
             // 
             // lb_TinhTrang
             // 
@@ -265,7 +266,7 @@ namespace Kstore
             // 
             this.lb_GhiChu.AutoSize = true;
             this.lb_GhiChu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lb_GhiChu.Location = new System.Drawing.Point(501, 45);
+            this.lb_GhiChu.Location = new System.Drawing.Point(547, 45);
             this.lb_GhiChu.Name = "lb_GhiChu";
             this.lb_GhiChu.Size = new System.Drawing.Size(18, 21);
             this.lb_GhiChu.TabIndex = 20;
@@ -288,7 +289,7 @@ namespace Kstore
             this.Controls.Add(this.btn_HuyDonHang);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.rtb_SanPham);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.lb_LyDo);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -314,7 +315,7 @@ namespace Kstore
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lb_LyDo;
         private System.Windows.Forms.RichTextBox rtb_SanPham;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button btn_HuyDonHang;
