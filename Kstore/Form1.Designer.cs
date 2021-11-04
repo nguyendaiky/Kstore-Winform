@@ -31,8 +31,6 @@ namespace Kstore
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pnl_Menu = new System.Windows.Forms.Panel();
-            this.btn_ThongTin = new FontAwesome.Sharp.IconButton();
-            this.btn_ThongKe = new FontAwesome.Sharp.IconButton();
             this.btn_QuanLy = new FontAwesome.Sharp.IconButton();
             this.btn_GioHang = new FontAwesome.Sharp.IconButton();
             this.btn_DanhMuc = new FontAwesome.Sharp.IconButton();
@@ -49,8 +47,6 @@ namespace Kstore
             // pnl_Menu
             // 
             this.pnl_Menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
-            this.pnl_Menu.Controls.Add(this.btn_ThongTin);
-            this.pnl_Menu.Controls.Add(this.btn_ThongKe);
             this.pnl_Menu.Controls.Add(this.btn_QuanLy);
             this.pnl_Menu.Controls.Add(this.btn_GioHang);
             this.pnl_Menu.Controls.Add(this.btn_DanhMuc);
@@ -60,44 +56,6 @@ namespace Kstore
             this.pnl_Menu.Name = "pnl_Menu";
             this.pnl_Menu.Size = new System.Drawing.Size(220, 454);
             this.pnl_Menu.TabIndex = 0;
-            // 
-            // btn_ThongTin
-            // 
-            this.btn_ThongTin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_ThongTin.FlatAppearance.BorderSize = 0;
-            this.btn_ThongTin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ThongTin.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_ThongTin.ForeColor = System.Drawing.Color.LightGray;
-            this.btn_ThongTin.IconChar = FontAwesome.Sharp.IconChar.InfoCircle;
-            this.btn_ThongTin.IconColor = System.Drawing.Color.LightGray;
-            this.btn_ThongTin.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_ThongTin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_ThongTin.Location = new System.Drawing.Point(0, 340);
-            this.btn_ThongTin.Name = "btn_ThongTin";
-            this.btn_ThongTin.Size = new System.Drawing.Size(220, 60);
-            this.btn_ThongTin.TabIndex = 5;
-            this.btn_ThongTin.Text = "   Thông tin";
-            this.btn_ThongTin.UseVisualStyleBackColor = true;
-            this.btn_ThongTin.Click += new System.EventHandler(this.btn_ThongTin_Click);
-            // 
-            // btn_ThongKe
-            // 
-            this.btn_ThongKe.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_ThongKe.FlatAppearance.BorderSize = 0;
-            this.btn_ThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ThongKe.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_ThongKe.ForeColor = System.Drawing.Color.LightGray;
-            this.btn_ThongKe.IconChar = FontAwesome.Sharp.IconChar.ChartLine;
-            this.btn_ThongKe.IconColor = System.Drawing.Color.LightGray;
-            this.btn_ThongKe.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_ThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_ThongKe.Location = new System.Drawing.Point(0, 280);
-            this.btn_ThongKe.Name = "btn_ThongKe";
-            this.btn_ThongKe.Size = new System.Drawing.Size(220, 60);
-            this.btn_ThongKe.TabIndex = 4;
-            this.btn_ThongKe.Text = "   Thống kê đơn hàng";
-            this.btn_ThongKe.UseVisualStyleBackColor = true;
-            this.btn_ThongKe.Click += new System.EventHandler(this.btn_ThongKe_Click);
             // 
             // btn_QuanLy
             // 
@@ -231,8 +189,6 @@ namespace Kstore
         #endregion
 
         private System.Windows.Forms.Panel pnl_Menu;
-        private FontAwesome.Sharp.IconButton btn_ThongTin;
-        private FontAwesome.Sharp.IconButton btn_ThongKe;
         private FontAwesome.Sharp.IconButton btn_QuanLy;
         private FontAwesome.Sharp.IconButton btn_GioHang;
         private FontAwesome.Sharp.IconButton btn_DanhMuc;

@@ -36,7 +36,6 @@ D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.CartItem.resou
 D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.childForm.DanhMuc.resources
 D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.childForm.GioHang.resources
 D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.childForm.QuanLy.resources
-D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.childForm.ThongKe.resources
 D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.Form1.resources
 D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.Item.resources
 D:\Workspace\Kstore-Winform\Kstore\obj\Debug\netcoreapp3.1\Kstore.Properties.Resources.resources

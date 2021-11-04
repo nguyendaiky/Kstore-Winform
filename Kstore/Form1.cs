@@ -120,16 +120,5 @@ namespace Kstore
             OpenChildForm(new childForm.QuanLy());
             ActivateButton(sender);
         }
-
-        private void btn_ThongKe_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new childForm.ThongKe());
-            ActivateButton(sender);
-        }
-
-        private void btn_ThongTin_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
-        }
     }
 }
