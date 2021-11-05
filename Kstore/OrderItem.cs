@@ -13,7 +13,7 @@ namespace Kstore
         public OrderItem()
         {
             InitializeComponent();
-            lb_LyDo.Visible = false;
+            this.lb_GhiChu.Visible = false;
             DangGiaoHang(10);
         }
 
@@ -91,6 +91,7 @@ namespace Kstore
                 if (value == "Đã hủy đơn hàng")
                 {
                     this.lb_TinhTrang.ForeColor = Color.Red;
+                    this.lb_GhiChu.Visible = true;
                 }
                 else if (value == "Đang giao hàng")
                 {
@@ -216,17 +217,18 @@ namespace Kstore
             if(reason != "BUTTON CANCEL")
             {
                 this.OrderItemStatus = "Đã hủy đơn hàng";
-                this.lb_LyDo.Visible = true;
+                reason = "Lý do hủy đơn: " + reason;
                 this.lb_GhiChu.Text = reason;
                 foreach (DataRow dr in Form1.ordersData.Rows)
                 {
                     if (dr["id"].ToString() == this.OrderItemId)
                     {
                         dr["status"] = "Đã hủy đơn hàng";
-                        this.ParentForm.LoadOrder();
+                        dr["note"] = reason;
                     }
                 }
             }
+            this.ParentForm.LoadOrder();
         }
     }
 }

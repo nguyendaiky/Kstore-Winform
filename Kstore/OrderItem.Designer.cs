@@ -37,7 +37,6 @@ namespace Kstore
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.lb_LyDo = new System.Windows.Forms.Label();
             this.rtb_SanPham = new System.Windows.Forms.RichTextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.btn_HuyDonHang = new System.Windows.Forms.Button();
@@ -50,6 +49,7 @@ namespace Kstore
             this.lb_DiaChi = new System.Windows.Forms.Label();
             this.lb_ThoiGianGiao = new System.Windows.Forms.Label();
             this.lb_GhiChu = new System.Windows.Forms.Label();
+            this.lb_LyDo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -131,16 +131,6 @@ namespace Kstore
             this.label8.Size = new System.Drawing.Size(143, 21);
             this.label8.TabIndex = 7;
             this.label8.Text = "Thời gian đặt hàng:";
-            // 
-            // lb_LyDo
-            // 
-            this.lb_LyDo.AutoSize = true;
-            this.lb_LyDo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lb_LyDo.Location = new System.Drawing.Point(429, 45);
-            this.lb_LyDo.Name = "lb_LyDo";
-            this.lb_LyDo.Size = new System.Drawing.Size(112, 21);
-            this.lb_LyDo.TabIndex = 8;
-            this.lb_LyDo.Text = "Lý do hủy đơn:";
             // 
             // rtb_SanPham
             // 
@@ -266,11 +256,21 @@ namespace Kstore
             // 
             this.lb_GhiChu.AutoSize = true;
             this.lb_GhiChu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lb_GhiChu.Location = new System.Drawing.Point(547, 45);
+            this.lb_GhiChu.Location = new System.Drawing.Point(501, 45);
             this.lb_GhiChu.Name = "lb_GhiChu";
             this.lb_GhiChu.Size = new System.Drawing.Size(18, 21);
             this.lb_GhiChu.TabIndex = 20;
             this.lb_GhiChu.Text = "k";
+            // 
+            // lb_LyDo
+            // 
+            this.lb_LyDo.AutoSize = true;
+            this.lb_LyDo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lb_LyDo.Location = new System.Drawing.Point(429, 45);
+            this.lb_LyDo.Name = "lb_LyDo";
+            this.lb_LyDo.Size = new System.Drawing.Size(66, 21);
+            this.lb_LyDo.TabIndex = 8;
+            this.lb_LyDo.Text = "Ghi chú:";
             // 
             // OrderItem
             // 
@@ -315,7 +315,6 @@ namespace Kstore
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label lb_LyDo;
         private System.Windows.Forms.RichTextBox rtb_SanPham;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button btn_HuyDonHang;
@@ -328,5 +327,6 @@ namespace Kstore
         private System.Windows.Forms.Label lb_DiaChi;
         private System.Windows.Forms.Label lb_ThoiGianGiao;
         private System.Windows.Forms.Label lb_GhiChu;
+        private System.Windows.Forms.Label lb_LyDo;
     }
 }
